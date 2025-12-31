@@ -4,8 +4,8 @@ import useListExtensionDetails, {
   ChromeExtension,
 } from '../composables/useListExtensionDetails';
 
-// Add extension IDs to end of the list. On the website, extensions will be sorted by a combination of weekly active users and rating.
-// Change the commit message or PR title to: "docs: Added "[extension name]" to the homepage"
+// Add extension IDs to the end of the list. On the website, extensions will be sorted by a combination of weekly active users and rating.
+// Change the commit message or PR title to: "docs: Added "[extension name]" to the homepage."
 const chromeExtensionIds = [
   'ocfdgncpifmegplaglcnglhioflaimkd', // GitHub: Better Line Counts
   'mgmdkjcljneegjfajchedjpdhbadklcf', // Anime Skip Player
@@ -112,6 +112,7 @@ const chromeExtensionIds = [
   'dfacnjidgbagicaekenjgclfnhdnjjdi', // Zen Virtual Piano - https://zen-piano.web.app/
   'naeibcegmgpofimedkmfgjgphfhfhlab', // Crypto Pulse price tracker - https://get-crypto-pulse.web.app/
   'ffglckbhfbfmdkefdmjbhpnffkcmlhdh', // Redirect Web - Automatically redirect pages or open them in another app
+  'eglpfhbhmelampoihamjomgkeobgdofl', // Capture It - Capture & Edit Screenshots
 ];
 
 const { data, err, isLoading } = useListExtensionDetails(chromeExtensionIds);
